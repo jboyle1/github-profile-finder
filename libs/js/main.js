@@ -1,3 +1,5 @@
 $(document).ready(function() {
-    console.log('ready')
+    $('#searchUser').on('keyup', function() {
+        console.log('key pressed')
+    })
 })
