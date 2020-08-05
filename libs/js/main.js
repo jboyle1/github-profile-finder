@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#searchUser').on('keyup', function() {
-        console.log('key pressed')
+    $('#searchUser').on('keyup', function(e) {
+        console.log(e.target.value);
     })
 })
