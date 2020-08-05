@@ -35,8 +35,6 @@ $(document).ready(function () {
                       </div>
                     </div>
                   </div>
-                  <h3 class="page-header">Latest Repos</h3>
-                  <div id="repos"></div>
                 `
                 )
             }
